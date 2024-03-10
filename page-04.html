@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="home.css">
+    <title>Data collection, Modelling, Validations, Examples & Templates</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <div id="header">
+        <h1>
+          Data collection, Modelling, Validations, Examples & Templates
+        </h1>
+      </div>
+      <div id="navigation">
+        <ul id="menu">
+          <li><a href="index.html">Index</a></li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="page-01.html">Platform</a></li>
+          <li><a href="page-02.html">AI/ML</a></li>
+          <li><a href="page-03.html">Standards</a></li>
+          <li class="active"><a href="page-04.html">Implementation</a></li>
+        </ul>
+      </div>
+      <div id="navigation-side">
+        <ul id="menu-side">
+          <li>Resources</li>
+          <li class="hover"><a href="https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/exploring-how-to-create-mock-patient-data-synthetic-data-from-real-patient-data/">Data collection</a></li>
+          <li class="hover"><a href="https://www.hra.nhs.uk/planning-and-improving-research/research-planning/how-were-supporting-data-driven-technology/accessing-health-and-care-data-research-data-driven-technology-step-step-guide-and-glossary/step-2-clearly-document-how-you-plan-manage-data/">Modelling</a></li>
+          <li class="hover"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0260829">Validations</a></li>
+          <li class="hover"><a href="./doc/Eqaution_ Model_Validation_SOP_KFRE .pdf" alt="KFRE_SOP">Examples</a></li>
+          <li class="hover"><a href="./doc/eHealth_Bussiness_Case.pdf" alt="eHealth Business case template">Templates</a></li>
+        </ul>
+      </div>
+      <div id="page-maincontent">
+        <div id="page-primary">
+          <img src="./images/DataCycleP4.png" alt="A model implementation cycle diagram"class="large-right-img">
+          <p>
+            Firstly, define Objectives: Clearly articulate the goals of the analysis and what you hope to achieve with the data.  Secondary, data Collection: Gather relevant data from various sources, ensuring its accuracy and completeness.  Thirdly, data Preparation: Cleanse, transform, and pre-process the data to make it suitable for analysis. This may involve handling missing values, removing outliers, and formatting the data.  Following by exploratory Data Analysis (EDA): Explore the data through statistical summaries, visualizations, and other techniques to gain insights into its characteristics and patterns.  Then Model Building: Develop statistical or machine learning models to analyse the data and make predictions or decisions.  Finally, evaluation: Assess the performance of the models using appropriate metrics and techniques, such as cross-validation or hypothesis testing.  The cycle will iterate again: Iterate through the cycle as needed, refining the analysis based on feedback or new insights, and adjusting objectives as necessary.          
+          </p>
+          <p>
+            LEGISLATION
+            Ensuring the implementation of a model following all legislation and reaching regulatory stasndards a priority including the following: Privacy impact assessment and application for approval to conduct research or review of patient data in the electronic patient record (EPR)
+            EU regulation for in-vitro medical devices <a href= "https://www.legislation.gov.uk/eur/2017/746/contents
+            ">(EU) 2017/746 (IVDR).</a> Risk management for medical devices to reach the necessary <a href= "https://www.medical-device-regulation.eu/wp-content/uploads/2020/09/WP_Risk_management_web.pdf">(ISO 14971 standard).</a>
+            A new frame work for AI systems using machine learning  <a href= "https://www.iso.org/artificial-intelligence/machine-learning">(ISO/IEC 23053).</a>
+          </p>
+          <p>
+            Clinical evaluation of the model
+            UK National Institute for Health and Care Excellence (NICE) provide comprehensive guidance to clinical diagnosis and management of disease; Kidney Failure Risk Equation <a href= "./doc/chronic-kidney-disease-assessment-and-management.pdf">KFRE)</a>and The Fibrosis-4 index for Liver Fibrosis <a href= "./doc/assessing-and-monitoring-liver-fibrosis-activity.pdf.pdf">(FIB-4)</a> scoring system are two very good examples.  
+          <p>
+            Post-implementation quality management requirement is very important in implementationof any machine learning model in any healthcare setting.  In analytical procedures, IQC is used to measure the variation and error included in each measurement which will affect the precision of the results.  Different factories could affect the precision of a biochemistry assay including water quality, mechanical variation of the instrument and log and batch variation of reagents used.  
+          </p>
+        </div>
+        <div id="page-secondary">
+          <img src="./images/Full_Stack_ML_model_feedback_Diag_P4.png" alt="A full data analysis model with feedback loop by Morton 2014"class="large-right-img">
+          <p>
+            In many early researchs, Machine learning has been used in modelling individual
+            healthcare problem. The use of a single dataset to train several algorithms and the
+            optimal model selected to solve the problem. In later development, a multi-disciplinary
+            approach is used to creating a simulation model of the cardiac patient flow path in an
+            acute hospital. This change demonstrates the importance of data quality, data integrity,
+            ensuring the validated model could reflect the real-life scenario. With an increase in
+            computer power, more complex and advance algorithm are being used. Such as a stochastic algorithm which is based on the probability of a prior/ past event. Stochastic
+            modelling shown in the diagram by Kovalchuk could deal with effect by unknown parameters (noise)
+            similar to a real-life environment. And it is more suitable to model complex system than
+            the deterministic model. In deterministic models <a href= "https://pubmed.ncbi.nlm.nih.gov/24840801/">(Morton 2014).</a>The effect of known parameters are being investigated in strict laboratory condition. The final goal is to have high quality and accurate ML models. It is not just the accuracy of models, but transparency of model application, effectiveness and patient-centric approach to use ML
+            model to benefit patient care.
+          </p>                             
+        </div>
+      </div>
+      <div id="page-footer">
+        <p>
+          Contact for Feedback:
+          <a href= "mailto:peterchukkfreproject@gmail.com">Peter Chuk Adminstrator</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+/* Styling, size and margin of images used in the web page */
+
+/* create a background class and image for background 
+transparent image in index page */
+.background {
+  overflow: hidden;
+  position: absolute;
+}
+
+.background-image {
+  opacity: 0.5;
+  position: absolute;
+  left: 1%;
+  right: 5%;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.small-right-img {
+  width: 80px;
+  float: right;
+  margin: 2px;
+}
+
+.float-right-img {
+  width: 250px;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large-right-img {
+  width: 650px;
+  float: right;
+  margin: 10px;
+}
+
+.small-left-img {
+  width: 50px;
+  float: left;
+  margin: 1px;
+}
+
+.medium-left-img {
+  width: 150px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large-left-img {
+  width: 650px;
+  float: left;
+  margin: 10px;
+}
+
+.small-centre-img {
+  display: block;
+  width: 50px;
+  margin: 10px;
+}
+
+.medium-centre-img {
+  display: block;
+  width: 150px;
+  margin: 10px;
+}
+
+.large-centre-img {  
+  display: block;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto
+}

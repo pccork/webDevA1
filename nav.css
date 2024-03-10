@@ -1,0 +1,37 @@
+/*This CSS file setup the navigation menu to the web page page*/
+
+/*Navigation to the main menu bar */
+ul#menu li {
+  display: inline;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+ul#menu a {
+  text-decoration: none;
+}
+
+#menu li.active a {
+  background: skyblue;
+  padding: .5em 2em .5em 2em;
+  color: white;
+}
+
+
+/*Navigation to the side menu bar */
+
+ul#menu-side li {
+    display: block;
+    line-height: 2em;
+    width: 100%;
+}
+
+ul#menu-side a {
+  font-family: Arial;
+  text-decoration: none;
+}
+
+
+#menu-side li:hover a {
+  background-color: yellow;
+}
